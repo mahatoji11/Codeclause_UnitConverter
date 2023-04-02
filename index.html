@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Alldata">
+        <h1>Unit Converter</h1>
+        <div class="container">
+            <label for="cm">Centimeters</label><input type="number" id="cm" oninput="convert('cm',this.value)">
+        </div>
+        <div class="container">
+            <label for="meter">Meters</label><input type="number" id="meter" oninput="convert('meter',this.value)">
+        </div>
+        <div class="container">
+            <label for="km">Kilometers</label><input type="number" id="km" oninput="convert('km',this.value)">
+        </div>
+        <div class="container">
+            <label for="inch">Inches</label><input type="number" id="inch" oninput="convert('inch',this.value)">
+        </div>
+        <div class="container">
+            <label for="yard">Yard</label><input type="number" id="yard" oninput="convert('yard',this.value)">
+        </div>
+        <div class="container">
+            <label for="feet">Feet</label><input type="number" id="feet" oninput="convert('feet',this.value)">
+        </div>
+        <div class="container">
+            <label for="miles">Miles</label><input type="number" id="miles" oninput="convert('miles',this.value)">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
